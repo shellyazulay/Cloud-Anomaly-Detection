@@ -17,5 +17,13 @@ During the project, I was able to identify specific patterns:
 - cloud_user: Showed a very high velocity of API calls, typical of Cryptojacking.
 - sec_check and secmonkey: These accounts accessed more than 25 different services in a single hour, which signaled discovery activity.
 
+How to Run
+Note: Due to file size limits on GitHub, the data file (attack.json) is not included in this repository.
+
+1. Open the .ipynb file in Google Colab.
+2. Ensure you have the attack.json file available locally.
+3. Upload the attack.json file to the Colab runtime environment (click the folder icon on the left sidebar and drag the file).
+4. Run all cells to see the analysis and model results.
+
 Conclusion
 The main takeaway from this project for me was that while models are powerful, the way we prepare the data and incorporate domain knowledge (like graph theory) is what really makes the difference in identifying complex threats.
